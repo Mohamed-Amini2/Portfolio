@@ -1,6 +1,6 @@
 {
   "name": "my-portfolio",
-  "homepage": "https://Mohamed-Amini2.github.io/Portfolio/",
+  "homepage": "https://Mohamed-Amini2.github.io/Portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy":"yarn build",
-    "deploy":"gh-pages -d -dist"
+    "deploy":"gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.17",
