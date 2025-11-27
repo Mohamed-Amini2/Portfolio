@@ -1,0 +1,14 @@
+[
+    {
+      "category": "Frontend",
+      "items": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Shadcn"]
+    },
+    {
+      "category": "Backend",
+      "items": ["Node.js", "Express", "PostgreSQL", "MongoDB", "GraphQL", "Redis", "PHP", "Symfony"]
+    },
+    {
+      "category": "Tools",
+      "items": ["Git", "Docker", "AWS", "Figma", "CI/CD"]
+    }
+  ]
