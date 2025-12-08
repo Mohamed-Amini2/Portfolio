@@ -144,7 +144,7 @@ export const ContactSection = () => {
                     </button>
                     <a
                       type="submit"
-                      href="./Mohamed_Amini_CV.pdf"
+                      href="/Mohamed_Amini_CV.pdf"
                       download="Mohamed_Amini_CV.pdf"
                       className="group inline-flex items-center gap-3 ml-6 px-8 py-4 bg-white text-black hover:bg-gray-200 transition-colors duration-300"
                     >
