@@ -1,9 +1,10 @@
 import { ProjectsBox } from "./tools/ProjectsBox";
 import { ArrowUpRight } from "lucide-react";
+import kinesis from '../../assets/Kinesis.png'
 
 const WorkSection = () => {
   return (
-    <section className="min-h-screen px-6 py-20">
+    <section id="work" className="min-h-screen px-6 py-20">
       <div className="w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12">
         <div className="lg:col-span-12 flex flex-col justify-end">
           
@@ -20,36 +21,20 @@ const WorkSection = () => {
           </div>
           <div className="h-px bg-white w-full"></div>
           <ProjectsBox 
-            year={2025}
-            title="AI Chat Application"
-            role="Backend Engineer"
-            description="Integrated OpenAI API with a custom backend to serve personalized responses to users."
-            technologies={['PYTHON', 'FASTAPI', 'POSTGRESQL', 'DOCKER']}
-            image="https://doodleipsum.com/700?i=80ac55adfd99147758c3dc6a9771fc40"
+            year={2023}
+            title="Transportation Cargo Website"
+            role="Fullstack "
+            description="A transportation Website That manages how much cargo on each transporter"
+            technologies={['NODEJS', 'REACT', 'EXPRESS', 'MONGODB']}
+            image=""
             />
             <ProjectsBox 
-            year={2025}
-            title="AI Chat Application"
-            role="Backend Engineer"
-            description="Integrated OpenAI API with a custom backend to serve personalized responses to users."
-            technologies={['PYTHON', 'FASTAPI', 'POSTGRESQL', 'DOCKER']}
-            image="https://doodleipsum.com/700?i=80ac55adfd99147758c3dc6a9771fc40"
-            />
-            <ProjectsBox 
-            year={2025}
-            title="AI Chat Application"
-            role="Backend Engineer"
-            description="Integrated OpenAI API with a custom backend to serve personalized responses to users."
-            technologies={['PYTHON', 'FASTAPI', 'POSTGRESQL', 'DOCKER']}
-            image="https://doodleipsum.com/700?i=80ac55adfd99147758c3dc6a9771fc40"
-            />
-            <ProjectsBox 
-            year={2025}
-            title="AI Chat Application"
-            role="Backend Engineer"
-            description="Integrated OpenAI API with a custom backend to serve personalized responses to users."
-            technologies={['PYTHON', 'FASTAPI', 'POSTGRESQL', 'DOCKER']}
-            image="https://doodleipsum.com/700?i=80ac55adfd99147758c3dc6a9771fc40"
+            year={2023}
+            title="A KinoTherapy Website"
+            role="Backend Developer"
+            description="The idea was to help People who lives in the country side to get a medical check Online"
+            technologies={['Symfony', 'REACT', 'POSTGRESQL', 'DOCKER']}
+            image={kinesis}
             />
         </div>
         <div className="lg:col-span-12 flex justify-center mt-12">

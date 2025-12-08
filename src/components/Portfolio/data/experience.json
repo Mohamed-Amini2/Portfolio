@@ -1,8 +1,8 @@
 [
-    {
-      "role": "Junior Fullstack",
-      "company": "Searchcept",
-      "period": "2023mars-2023oct",
-      "description": "Built and maintained multiple client projects"
-    }
-  ]
+  {
+    "role": "Junior Fullstack Developer",
+    "company": "Searchcept",
+    "period": "Mar 2023 – Oct 2023",
+    "description": "Developed and maintained the backend of a logistics platform, implementing an authentication system, CRUD operations, and a set of REST APIs. Created and continuously updated technical API documentation using Swagger/OpenAPI for both internal developers and external consumers. To ensure backend quality and stability, implemented and maintained comprehensive testing using Jest. As part of a 5-person Agile team, actively contributed to integrating the React-based frontend with the Node.js backend. Gained hands-on experience in deployment processes while learning production environment best practices. Under the guidance of a senior developer, also participated in conducting code reviews and task planning during sprints, which helped maintain high code standards and efficient team workflow."
+  }
+]

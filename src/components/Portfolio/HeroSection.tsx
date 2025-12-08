@@ -39,18 +39,21 @@
             <div className="lg:col-span-8">
               <ul className="font_Baskervville text-white font-serif flex flex-col items-start">
                 
-                <li className="text-[clamp(3rem,11vw,10rem)] leading-[90%] tracking-tight cursor-pointer transition-all duration-300 hover:translate-x-4 hover:font-[500] hover:opacity-100 opacity-80 block">
+                <a href="#work">
+                <li  className="text-[clamp(3rem,11vw,10rem)] leading-[90%] tracking-tight cursor-pointer transition-all duration-300 hover:translate-x-4 hover:font-[500] hover:opacity-100 opacity-80 block">
                   WORK
                 </li>
-                
+                </a>
+                <a href="#aboutme">
                 <li className="text-[clamp(3rem,11vw,10rem)] leading-[90%] tracking-tight cursor-pointer transition-all duration-300 hover:translate-x-4 hover:font-[500] hover:opacity-100 opacity-80 block">
                   ABOUT
                 </li>
-                
+                </a>
+                <a href="#contact">
                 <li className="text-[clamp(3rem,11vw,10rem)] leading-[90%] tracking-tight cursor-pointer transition-all duration-300 hover:translate-x-4 hover:font-[500] hover:opacity-100 opacity-80 block">
                   CONTACT
                 </li>
-    
+                </a>
               </ul>
                 <div className="h-px bg-white/50 mt-12 w-full origin-left"></div>
             </div>

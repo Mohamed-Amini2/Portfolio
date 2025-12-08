@@ -9,6 +9,6 @@
     },
     {
       "category": "Tools",
-      "items": ["Git", "Docker", "AWS", "Figma", "CI/CD"]
+      "items": ["Git", "Docker", "Figma", "CI/CD"]
     }
   ]

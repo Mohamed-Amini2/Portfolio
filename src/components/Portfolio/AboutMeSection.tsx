@@ -27,7 +27,7 @@ export const AboutMeSection = () => {
   const experience:Experience_DTO_Object[] = experienceData;
 
   return (
-    <section className="min-h-screen px-6 py-20  text-white">
+    <section id='aboutme' className="min-h-screen px-6 py-20  text-white">
       <div className="w-full max-w-7xl mx-auto">
         <div className="mb-20">
           <p className="text-[#808080] mb-2 text-sm tracking-wider uppercase">
@@ -115,16 +115,13 @@ export const AboutMeSection = () => {
               <div className="space-y-4 text-[#B0B0B0]">
                 <div>
                   <p className="text-white font-medium">
-                    Awwwards Honorable Mention
                   </p>
-                  <p className="text-[#808080] text-sm">2023</p>
+                  <p className="text-[#808080] text-sm"></p>
                 </div>
                 <div>
                   <p className="text-white font-medium">
-                    Open Source Contributor
                   </p>
                   <p className="text-[#808080] text-sm">
-                    Various projects
                   </p>
                 </div>
               </div>

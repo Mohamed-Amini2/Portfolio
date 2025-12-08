@@ -13,18 +13,11 @@ export const ContactSection = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log("Submitted:", formData);
-    alert("Message sent! (This is a demo alert)");
-    setFormData({ name: "", email: "", message: "" });
-  };
-
   const contactLinks = [
     { label: "Email", value: "Mohamedamini740@gmail.com", href: "mailto:Mohamedamini740@gmail.com" },
     { label: "LinkedIn", value: "", href: "#" },
     { label: "GitHub", value: "https://github.com/Mohamed-Amini2", href: "https://github.com/Mohamed-Amini2" },
-    { label: "Instagram", value: "", href: "#" },
+    { label: "Instagram", value: "https://www.instagram.com/med_.i/", href: "https://www.instagram.com/med_.i/" },
   ];
 
   return (
@@ -88,7 +81,7 @@ export const ContactSection = () => {
           </div>
 
           <div className="lg:col-span-7">
-            <form onSubmit={handleSubmit} className="space-y-8">
+            <form  className="space-y-8" action="https://getform.io/f/bdrkrypb" method="POST">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="space-y-3">
                   <label htmlFor="name" className="block text-[#808080] text-xs uppercase tracking-wide">
@@ -149,6 +142,18 @@ export const ContactSection = () => {
                         size={20}
                       />
                     </button>
+                    <a
+                      type="submit"
+                      href="./Mohamed_Amini_CV.pdf"
+                      download="Mohamed_Amini_CV.pdf"
+                      className="group inline-flex items-center gap-3 ml-6 px-8 py-4 bg-white text-black hover:bg-gray-200 transition-colors duration-300"
+                    >
+                      <span className="font-medium tracking-wide">Download my cv </span>
+                      <ArrowUpRight
+                        className="group-hover:rotate-45 transition-transform duration-300"
+                        size={20}
+                      />
+                    </a>
                   </div>
                 </form>
               </div>
