@@ -56,11 +56,19 @@ export const ProjectsBox = ({
         </div>
         <div className="lg:col-span-4 hidden md:block">
           <div className="aspect-[4/3] overflow-hidden bg-[#1a1a1a] border border-white/10 rounded-sm">
-            <img 
-              src={image}
-              alt={title}
-              className="w-full h-full bg-white object-cover opacity-80 group-hover:scale-105 group-hover:opacity-100 transition-all duration-500" 
-            />
+            {image ? (
+              <img
+                src={image}
+                alt={title}
+                className="w-full h-full bg-white object-cover opacity-80 group-hover:scale-105 group-hover:opacity-100 transition-all duration-500"
+              />
+            ) : (
+              <div className="w-full h-full flex items-center justify-center px-4">
+                <span className="text-[#4a4a4a] text-xs tracking-widest uppercase text-center">
+                  {title}
+                </span>
+              </div>
+            )}
           </div>
         </div>
 

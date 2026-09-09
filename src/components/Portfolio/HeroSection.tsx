@@ -20,9 +20,6 @@
                   <a href="mailto:Mohamedamini740@gmail.com" className="text-[#B0B0B0] hover:text-white transition-colors border-b border-white/40 pb-1 hover:border-white cursor-pointer">
                     Email
                   </a>
-                  <a href="#" className="text-[#B0B0B0] hover:text-white transition-colors border-b border-white/40 pb-1 hover:border-white cursor-pointer">
-                    LinkedIn
-                  </a>
                   <a href="https://www.github.com/Mohamed-Amini2" className="text-[#B0B0B0] hover:text-white transition-colors border-b border-white/40 pb-1 hover:border-white cursor-pointer">
                     GitHub
                   </a>

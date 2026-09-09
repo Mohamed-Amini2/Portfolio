@@ -1,14 +1,14 @@
 [
-    {
-      "category": "Frontend",
-      "items": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Shadcn"]
-    },
-    {
-      "category": "Backend",
-      "items": ["Node.js", "Express", "PostgreSQL", "MongoDB", "GraphQL", "Redis", "PHP", "Symfony"]
-    },
-    {
-      "category": "Tools",
-      "items": ["Git", "Docker", "Figma", "CI/CD"]
-    }
-  ]
+  {
+    "category": "Frontend",
+    "items": ["Angular", "React", "TypeScript", "RxJS", "Next.js", "Tailwind CSS", "Taiga UI", "Shadcn"]
+  },
+  {
+    "category": "Backend",
+    "items": ["Node.js", "Express", "PostgreSQL", "MongoDB", "GraphQL", "Redis", "PHP", "Symfony"]
+  },
+  {
+    "category": "Tools",
+    "items": ["Git", "GitLab", "Docker", "Jest", "Figma", "CI/CD"]
+  }
+]
