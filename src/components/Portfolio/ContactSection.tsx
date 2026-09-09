@@ -15,7 +15,6 @@ export const ContactSection = () => {
 
   const contactLinks = [
     { label: "Email", value: "Mohamedamini740@gmail.com", href: "mailto:Mohamedamini740@gmail.com" },
-    { label: "LinkedIn", value: "", href: "#" },
     { label: "GitHub", value: "https://github.com/Mohamed-Amini2", href: "https://github.com/Mohamed-Amini2" },
     { label: "Instagram", value: "https://www.instagram.com/med_.i/", href: "https://www.instagram.com/med_.i/" },
   ];

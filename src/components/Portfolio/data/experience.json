@@ -1,8 +1,14 @@
 [
   {
+    "role": "Frontend Developer — Internship",
+    "company": "«Гуляем» — city events & routes platform",
+    "period": "Apr 2026 – Sep 2026",
+    "description": "Built features for a city guide platform in a team of six, using Angular 20 with signals, RxJS, Taiga UI and Leaflet maps. Shipped event editing, the full event card with reviews and favourites, and server-side route filtering. Delivered 120 commits through GitLab merge requests with senior code review — the highest contribution volume on the team."
+  },
+  {
     "role": "Junior Fullstack Developer",
     "company": "Searchcept",
     "period": "Mar 2023 – Oct 2023",
-    "description": "Developed and maintained the backend of a logistics platform, implementing an authentication system, CRUD operations, and a set of REST APIs. Created and continuously updated technical API documentation using Swagger/OpenAPI for both internal developers and external consumers. To ensure backend quality and stability, implemented and maintained comprehensive testing using Jest. As part of a 5-person Agile team, actively contributed to integrating the React-based frontend with the Node.js backend. Gained hands-on experience in deployment processes while learning production environment best practices. Under the guidance of a senior developer, also participated in conducting code reviews and task planning during sprints, which helped maintain high code standards and efficient team workflow."
+    "description": "Built and maintained the backend of a logistics platform: authentication, CRUD operations and REST APIs, documented with Swagger/OpenAPI. Covered the backend with Jest tests to keep it stable. Integrated the React frontend with the Node.js backend in a 5-person Agile team, and took part in code reviews and sprint planning under a senior developer."
   }
 ]

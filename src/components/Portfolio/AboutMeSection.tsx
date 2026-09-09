@@ -42,11 +42,13 @@ export const AboutMeSection = () => {
           <div className="lg:col-span-7 space-y-12">
             <div className="text-[#B0B0B0] text-lg leading-relaxed space-y-6">
               <p>
-              I'm a Fullstack developer from Morocco with passion to actually create so elegant and functioning digital experience passioned about web with experience of 4 years in this field.
-
+              I&apos;m a developer from Morocco, currently studying software engineering
+              in Krasnoyarsk. I&apos;ve spent the last four years building for the web —
+              most recently on the frontend, with Angular and React.
               </p>
               <p>
-              My approach combines technical expertise with a keen eye for design, resulting in products that are both powerful and beautiful
+              I like work that holds up under review: readable code, sensible structure,
+              and interfaces that stay pleasant to use once real data hits them.
               </p>
             </div>
             <div className="pt-8">
@@ -106,24 +108,6 @@ export const AboutMeSection = () => {
                     </div>
                   </div>
                 ))}
-              </div>
-            </div>
-            <div>
-            <h3 className="text-white mb-6 border-b border-white/20 pb-4 text-xl">
-                Recognition
-              </h3>
-              <div className="space-y-4 text-[#B0B0B0]">
-                <div>
-                  <p className="text-white font-medium">
-                  </p>
-                  <p className="text-[#808080] text-sm"></p>
-                </div>
-                <div>
-                  <p className="text-white font-medium">
-                  </p>
-                  <p className="text-[#808080] text-sm">
-                  </p>
-                </div>
               </div>
             </div>
           </div>
